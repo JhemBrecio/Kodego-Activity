@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+*{box-sizing: border-box;
+}
+
+.header{
+background: black;
+padding:75px;
+min-height: 70vh;
+display:flex;
+justify-content:center;
+font-size:50px;
+color: white;
+}
+
+.middle-container {
+display: flex;
+text-align: center;
+}
+.middle-container>article{
+flex: 2;
+min-height: 100vh;
+background-color:pink;
+text-align:center;
+}
+.middle-container>aside{
+flex:1;
+background-color: purple;
+}
+.middle-container>nav{
+flex:1;
+background-color: pink;
+}
+.Footer{
+background: black;
+padding:75px;
+min-height: 70vh;
+display:flex;
+justify-content:center;
+font-size:50px;
+color: white;
+}
+.form{
+text-align: justify;
+position: stock-down;
+padding: 70px;
+background:pink;
+}
+}
+</style>
+
+<body>
+
+<div class="header"><header>HEADER </header>
+</div>
+<div class="middle-container">
+	<article><h2>ARTICLE<H2></article>
+    
+    <form class="form">
+    	<input type="text" name="name" placeholder="NAME"></i>
+        <input type="text" name="name" placeholder="PHONE"></i>
+        <input type="text" name="name" placeholder="EMAIL"></i>
+        <input type="datetime-local" id="date" placeholder="PICK-UP DATE?TIME"></i>
+        <input type="text" name="name" placeholder="DROP OFF"></i>
+        
+        <p>Which vehicle do you require?</p>
+        <input type="checkbox" name="van" value="on">VAN</i>
+         <input type="checkbox" name="jeepney" value="on">JEEPNEY</i>
+          <input type="checkbox" name="tricycle" value="on">TRICYCLE</i>
+          
+        <p> Extras</p>
+        <input type="checkbox" name="baby seat" value="on">BABY SEAT</i>
+        <input type="checkbox" name="wheelchair access" value="on">WHEELCHAIR ACCESS</i>
+        <input type="checkbox" name="stock tip" value="on">STOCK TIP</i>
+    </form>
+    
+    
+		<aside><h2>ASIDE</h2></aside>
+			<nav><h2>NAV</h2><//nav>
+
+
+</div>
+<div class="Footer">
+FOOTER
+</div>
+
+</body>
+</html>

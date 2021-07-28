@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Excercise 3 day 6</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    *{box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+    }
+    .header{
+    	text-align:center;
+        background-color:pink;
+        padding: 10px;
+        font-size: 50px;
+        
+    }
+    .nav{
+        background-color: black;
+        text-align:center;
+    }
+    a:hover{
+        background-color: pink;
+        color:black;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: inline-block;
+    }
+    .column{
+    	background-color:white;
+        text-align:center;
+        float:left;
+        width:33.33%;
+        border: 1px solid black;
+        padding: 20px;
+    }
+    .main -content::after{
+        display:table;
+        clear:both;
+        content:'';
+    }
+    .main-gallery{
+  	    text-align:center;
+        background-color:pink;
+        padding: 10px;
+        font-size: 100px;
+        }
+    .gallery{
+   		background-color:white;
+        text-align:center;
+        float:left;
+        width:25%;
+        border: 2px solid black;
+        padding: 5px;
+        }   
+    @media only screen and (max-width:600px) {
+        .column{
+            width: 100%;
+        }
+    }
+    .footer{
+        background-color:black;
+        text-align:center;
+        color:white;
+        padding: 5px;
+    }
+    </style>
+    <body>
+    <div class="header">
+        <h1> ONLINE MAGAZINE </h1>
+    </div>
+    <div class="nav">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">CONTACT</a>
+        <a href="#">GALLERY</a>
+    </div>
+    <div class="main-content">
+    </div>
+    <div class="column">
+        <h2>LIFESTYLE</h2>
+        <p>text....</p>
+    </div>
+    <div class="column">
+        <h2>BUSINESS</h2>
+        <p>text....</p>
+    </div>
+    <div class="column">
+        <h2>CONTACT</h2>
+        <p>text....</p>
+    </div>
+    <div class="main-gallery">
+    	TRAVEL GALLERY
+    </div>
+    <div class="gallery">
+    <img src="https://media.discordapp.net/attachments/864086741816311821/864428233234841660/37585404_2145767658975912_6129135931615084544_n.jpg?width=200&height=300">
+    <p>CORON PALAWAN</p></img></div>
+    <div class="gallery"><img src="https://media.discordapp.net/attachments/864086741816311821/864428310103719946/B2.jpg?width=200&height=300"><p>BATANES</p></img></div>
+    <div class="gallery"><img src="https://media.discordapp.net/attachments/864086741816311821/864429327605170186/BUSINESS2.jpg?width=200&height=300"><p>COGON TRICYCLE</p></img></div>
+    <div class="gallery"><img src="https://media.discordapp.net/attachments/864086741816311821/864429406494654485/background.jpg?width=200&height=300"><p>ELNIDO PALAWAN</p></img></div>
+ 
+    <div class="footer">
+      COPYRIGHT.ALL RIGHT RESERVED.
+    </div>
+    </body>
+    </html>
+    
